@@ -1,0 +1,56 @@
+* {
+    transition: all .12s ease-in;
+}
+*{margin: 0; padding: 0;}
+*{box-sizing: border-box}
+body {
+    background-color: #fdde7e;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 4%;
+    font-family: sans-serif;
+}
+
+.label {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0 38px 0;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 442px;
+    position: relative;
+
+}
+.label:hover {
+    height: 500px;
+}
+.label:hover figure {
+    margin-top: 15px;    /* какой еще способ чтобы чашка при наведении оставалась на месте */
+}
+
+h1 {
+    color: #02995b;
+    font-size: 70px;
+    margin: 0;
+
+}
+
+
+h2 {
+    font-size: 56px;
+    color: #333333;
+  
+
+}
+p {
+    font-size: 24px;
+
+}
